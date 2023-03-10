@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Forks\lobbroker\src\Hyland.Integrations.LOBBroker.Common\Hyland.Integrations.LOBBroker.Common.csproj" />
     <ProjectReference Include="..\ECommerce.Application\ECommerce.Application.csproj" />
   </ItemGroup>
 

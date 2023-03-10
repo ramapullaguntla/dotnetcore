@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Infrastructure", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Application", "ECommerce.Application\ECommerce.Application.csproj", "{257BBAA6-0742-442E-8141-6323B01980F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hyland.Integrations.LOBBroker.Common", "..\..\..\Forks\lobbroker\src\Hyland.Integrations.LOBBroker.Common\Hyland.Integrations.LOBBroker.Common.csproj", "{C641AE3F-0334-4103-BBC3-69109DBA82C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyland.Localization", "..\..\..\..\TFS\DEV\Core\OnBase.NET\Libraries\Hyland.Localization\Hyland.Localization.csproj", "{8427F4B4-7231-433E-B854-C41D3BF20DD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{257BBAA6-0742-442E-8141-6323B01980F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{257BBAA6-0742-442E-8141-6323B01980F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{257BBAA6-0742-442E-8141-6323B01980F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C641AE3F-0334-4103-BBC3-69109DBA82C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C641AE3F-0334-4103-BBC3-69109DBA82C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C641AE3F-0334-4103-BBC3-69109DBA82C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C641AE3F-0334-4103-BBC3-69109DBA82C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8427F4B4-7231-433E-B854-C41D3BF20DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8427F4B4-7231-433E-B854-C41D3BF20DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8427F4B4-7231-433E-B854-C41D3BF20DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8427F4B4-7231-433E-B854-C41D3BF20DD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

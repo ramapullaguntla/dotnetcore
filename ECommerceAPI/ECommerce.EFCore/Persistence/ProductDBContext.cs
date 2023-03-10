@@ -1,10 +1,8 @@
-﻿using ECommerce.Application.Services;
+﻿using ECommerce.Application.Models;
+using ECommerce.Application.Services;
 using ECommerce.EFCore;
 using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Linq;
-using ECommerce.Application.Models;
 
 namespace ECommerce.Infrastructure.Persistence
 {
@@ -18,35 +16,29 @@ namespace ECommerce.Infrastructure.Persistence
 
 		public void AddProduct(string name, string category, string description)
 		{
-			//Product product = new Product()
-			//{
-			//	Name = name,
-			//	Category = category,
-			//	Description = description
-			//};
-			//_context.Products.Add(product);
+			
+			Product product = new Product()
+			{
+				Name = name,
+				Category = category,
+				Description = description
+			};
+			_context.Products.Add(product);
 
 			//_context.SaveChanges();
 
 			//Call WCF Service.
-			
-		}
 
-	}
+		}
 
 		public List<ProductModel> GetProducts()
 		{
-			var products = (from eachProduct in _context.Products
-						   orderby eachProduct.Name
-						   select eachProduct.ToModel()).ToList();
-
-			return products;
+			throw new NotImplementedException();
 		}
 
 		public void UpdateProduct()
 		{
 			throw new NotImplementedException();
 		}
-		
-	}
+	}				
 }

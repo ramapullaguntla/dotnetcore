@@ -1,7 +1,5 @@
 ﻿using ECommerce.Application.Models;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ECommerce.Application.Services
 {
@@ -14,7 +12,7 @@ namespace ECommerce.Application.Services
 		}
 
 		public void AddProduct(string name, string category, string description)
-		{
+		{			
 			_productService.AddProduct(name, category, description);
 		}
 	}
